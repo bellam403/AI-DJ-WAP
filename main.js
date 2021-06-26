@@ -21,7 +21,7 @@ function preload()
 
 function setup() {
 	canvas =  createCanvas(600, 500);
-	canvas.center();
+	canvas.position(350, 250);
 
 	video = createCapture(VIDEO);
 	video.hide();
@@ -97,3 +97,9 @@ function play()
 	song.setVolume(1);
 	song.rate(1);
 }
+
+
+
+
+
+
